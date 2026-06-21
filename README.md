@@ -1,3 +1,7 @@
-# project-alpha-launch-17
+# SynapseAI - Нейроинтерфейсы нового поколения
 
-Initial repository setup for pr-poehali-dev/project-alpha-launch-17
+![Preview](preview.png)
+
+Лендинг для технологической компании в сфере нейроинтерфейсов и brain-computer интерфейсов. Включает интерактивную 3D hero-секцию с WebGL шейдерами, секции возможностей, технологий, таймлайн применений, отзывы пользователей, FAQ и призыв к действию. Темная цветовая схема с акцентами красного цвета.
+
+`"tags": ["landing", "dark", "ai", "3d", "animations", "glass"]`
