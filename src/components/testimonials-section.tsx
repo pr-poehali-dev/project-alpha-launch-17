@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
-    avatar: "/professional-woman-scientist.png",
-    content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
-  },
-  {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Игорь Семёнов",
+    role: "Начальник снабжения, строительный холдинг",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Заказываем спецодежду GP58™ третий год. Качество стабильное, швы крепкие, сроки соблюдают. Сотрудники довольны.",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Марина Власова",
+    role: "Директор по закупкам, производственное предприятие",
+    avatar: "/professional-woman-scientist.png",
+    content:
+      "Подкупает комплексный подход — закрыли всё от обуви до перчаток в одном месте. Менеджеры всегда на связи и помогают с подбором.",
+  },
+  {
+    name: "Алексей Гордеев",
+    role: "Руководитель цеха",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Одежда реально удобная в работе — крой продуман, ничего не сковывает. После стирок сохраняет вид. Берём повторно.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-orbitron">Нам доверяют предприятия</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Что говорят о спецодежде GP58™ наши клиенты
           </p>
         </div>
 
